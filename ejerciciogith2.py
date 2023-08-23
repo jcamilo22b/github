@@ -65,7 +65,7 @@ def main():
             pac.asigSer(service)
             comprobarP = sis.inserPaciente(pac)
             if comprobarP:
-                print('\nPaciente insertado correctamente.')
+                print('\nPaciente ingresado correctamente.')
             else:
                 print('\nError al insertar el paciente.')
 
